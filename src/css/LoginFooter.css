@@ -1,0 +1,48 @@
+.FooterContainer{
+    justify-content: center;
+    background:var(--main-deep-dark);
+    padding-top:3rem;
+    padding-bottom: 6rem;
+    color: #999;
+    position: relative;
+    margin-top: 6rem;
+    z-index: 4;
+
+}
+.footer-columns{
+    width: 70%;
+    margin: 1rem auto 0;
+    font-size: 0.9rem;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+ul li{
+    list-style: none;
+    line-height: 2.5;
+}
+a{
+    color: #999;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lang-btn{
+   background: transparent;
+   border:0.9px solid #333 ;
+   padding: 1rem; 
+   width: 8rem;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin:2rem  2.3rem ;
+}
+.Netflix-armenia{
+    margin-left: 17.8%;
+    font-size: '0.9rem';
+}
+@media(max-width:740px){
+    .footer-columns{
+       grid-template-columns: repeat(2,1fr);
+    }
+}

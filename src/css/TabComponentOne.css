@@ -1,0 +1,34 @@
+.TableContentContainer{
+    background: var(--main-deep-dark);
+}
+.TabelContentImageOne{
+    width: 31.875rem;
+}
+.title-1{
+    margin-top: 2rem;
+}
+.tab-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2.5rem;
+}
+.container{
+    margin:0 10%;
+}
+@media(max-width:1440px){
+    .title-1{
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+}
+@media(max-width:960px){
+    .tab-content{
+      grid-template-columns: 100%;
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
+}

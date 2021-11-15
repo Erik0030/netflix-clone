@@ -1,0 +1,9 @@
+@media(max-width:640px){
+    .form-container{
+        padding: 0.6rem;
+        height: 35rem;
+    }
+    .need-help{
+        margin-left: 13rem;
+    }
+}
